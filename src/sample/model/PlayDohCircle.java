@@ -1,7 +1,7 @@
 package sample.model;
 
-import java.util.Scanner
-import sample.model.PlayDohCircle;
+import java.util.Scanner;
+
 public class PlayDohCircle
 {
 	//Decleration section
@@ -16,5 +16,16 @@ public class PlayDohCircle
 	public PlayDohCircle(int size)
 	{
 		this.size = size;
+	}
+	
+	public void setSize(int updateSize)
+	{
+		this.size = updateSize;
+	}
+	
+	public String toString()
+	{
+		String description = "I am a PlayDohCircle and my size is " + size;
+		return description;
 	}
 }

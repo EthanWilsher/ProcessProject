@@ -25,6 +25,14 @@ public class SampleController
 		PlayDohCircle thirdCircle;
 		thirdCircle = new PlayDohCircle(10);
 		
+		
+		System.out.println("Here is my Play Doh Circle");
+		System.out.println(firstCircle);
+		System.out.println("Here is my second circle " + secondCircle);
+		System.out.println("Here is my Play Doh Tube");
+		System.out.println(firstTube);
+		
+		
 		System.out.println("This is  sample project to show off github and");
 		System.out.println("eclipse process so i develop muscle memory :D");
 	
@@ -37,6 +45,9 @@ public class SampleController
 		firstScanner = new Scanner(System.in); // Instanciates a Scanner object.
 		System.out.println("Please type your favorite food");
 		String answer = firstScanner.nextLine();
-		System.out.println("Oh, you like to eat " + answer);
+		System.out.println("Oh, you like to eat " + answer + ". that's hella wicked Yo!");
+		System.out.println("How old are you???");
+		int ageAnswer = firstScanner.nextInt();
+		System.out.println("You said that you are " + ageAnswer + " years old");
 	}
 }

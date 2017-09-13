@@ -2,7 +2,7 @@ package sample.model;
 
 public class PlayDohTube
 {
-	private int length
+	private int length;
 	
 	public PlayDohTube()
 	{
@@ -11,5 +11,11 @@ public class PlayDohTube
 	public PlayDohTube(int length)
 	{
 		this.length = length;
+	}
+	
+	public String toString()
+	{
+		String description = "I am a Play Doh Tube and my length is " + length;
+		return description;
 	}
 }
